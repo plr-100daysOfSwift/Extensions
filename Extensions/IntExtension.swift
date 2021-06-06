@@ -9,7 +9,7 @@ import Foundation
 
 extension Int {
 
-	func times(_ closure: () -> ()) {
+	func times(_ closure: () -> Void) {
 		var i = self
 		repeat {
 			closure()
