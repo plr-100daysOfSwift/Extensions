@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA55E5D5266D7C4100FA1EF9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA55E5D4266D7C4100FA1EF9 /* README.md */; };
 		DA55E5D7266D817700FA1EF9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA55E5D6266D817700FA1EF9 /* UIViewExtension.swift */; };
+		DA55E5D9266D8AE600FA1EF9 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA55E5D8266D8AE600FA1EF9 /* IntExtension.swift */; };
 		DA8D0F2D266D7BE900681AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D0F2C266D7BE900681AA4 /* AppDelegate.swift */; };
 		DA8D0F2F266D7BE900681AA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D0F2E266D7BE900681AA4 /* SceneDelegate.swift */; };
 		DA8D0F31266D7BE900681AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D0F30266D7BE900681AA4 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		DA55E5D4266D7C4100FA1EF9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DA55E5D6266D817700FA1EF9 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		DA55E5D8266D8AE600FA1EF9 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		DA8D0F29266D7BE900681AA4 /* Extensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Extensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8D0F2C266D7BE900681AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8D0F2E266D7BE900681AA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				DA8D0F37266D7BEB00681AA4 /* LaunchScreen.storyboard */,
 				DA8D0F3A266D7BEB00681AA4 /* Info.plist */,
 				DA55E5D6266D817700FA1EF9 /* UIViewExtension.swift */,
+				DA55E5D8266D8AE600FA1EF9 /* IntExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				DA8D0F31266D7BE900681AA4 /* ViewController.swift in Sources */,
 				DA8D0F2D266D7BE900681AA4 /* AppDelegate.swift in Sources */,
 				DA55E5D7266D817700FA1EF9 /* UIViewExtension.swift in Sources */,
+				DA55E5D9266D8AE600FA1EF9 /* IntExtension.swift in Sources */,
 				DA8D0F2F266D7BE900681AA4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
