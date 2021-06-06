@@ -29,4 +29,16 @@ class ExtensionsTests: XCTestCase {
 
 	}
 
+	func testArray_WhenRemoveCalled_FirstInstanceOfElementIsRemoved() {
+
+		let element1 = "foo"
+		let element2 = "bar"
+		var myArray = [element1, element2, element1]
+		myArray.remove(item: element1)
+
+		XCTAssertEqual(myArray, [element2, element1])
+		XCTAssertNotEqual(myArray, [element1, element2])
+
+	}
+
 }
