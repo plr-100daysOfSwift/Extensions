@@ -30,6 +30,8 @@ class ViewController: UIViewController {
 
 		blob.bounceOut(withDuration: 3)
 
+		5.times { print("Hallo!") }
+
 	}
 
 }
