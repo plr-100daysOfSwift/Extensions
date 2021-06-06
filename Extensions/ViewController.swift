@@ -28,6 +28,8 @@ class ViewController: UIViewController {
 		]
 		NSLayoutConstraint.activate(constraints)
 
+		blob.bounceOut(withDuration: 3)
+
 	}
 
 }
