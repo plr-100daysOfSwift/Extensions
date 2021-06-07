@@ -11,16 +11,21 @@ import Foundation
 
 class ExtensionsTests: XCTestCase {
 
+	var myArray: [String]!
+	var element: String!
+
 	override func setUpWithError() throws {
+		myArray = [String]()
+		element = "foo"
 	}
 
 	override func tearDownWithError() throws {
+		myArray = nil
+		element = nil
 	}
 
 	func testInt_WhenTimesCalled_ClosureIsRunIntTimes() {
 
-		var myArray = [String]()
-		let element = "foo"
 		3.times {
 			myArray.append(element)
 		}
@@ -31,8 +36,6 @@ class ExtensionsTests: XCTestCase {
 
 	func testInt_WhenIntIsNegative_ClosureIsRunPositiveIntTimes() {
 
-		var myArray = [String]()
-		let element = "foo"
 		let int: Int = -3
 		int.times {
 			myArray.append(element)
