@@ -10,7 +10,7 @@ import Foundation
 extension Int {
 
 	func times(_ closure: () -> Void) {
-		var i = self
+		var i = abs(self)
 		repeat {
 			closure()
 			i -= 1
