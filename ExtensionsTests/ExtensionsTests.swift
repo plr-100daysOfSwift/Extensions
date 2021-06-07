@@ -29,6 +29,19 @@ class ExtensionsTests: XCTestCase {
 
 	}
 
+	func testInt_WhenIntIsNegative_ClosureIsRunPositiveIntTimes() {
+
+		var myArray = [String]()
+		let element = "foo"
+		let int: Int = -3
+		int.times {
+			myArray.append(element)
+		}
+
+		XCTAssertEqual(myArray, [element, element, element])
+
+	}
+
 	func testArray_WhenRemoveCalled_FirstInstanceOfElementIsRemoved() {
 
 		let element1 = "foo"
