@@ -10,11 +10,10 @@ import Foundation
 extension Int {
 
 	func times(_ closure: () -> Void) {
-		var i = abs(self)
-		repeat {
+		let i = abs(self)
+		for _ in 0 ..< i {
 			closure()
-			i -= 1
-		} while i > 0
+		}
 	}
 	
 }
